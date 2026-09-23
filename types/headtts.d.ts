@@ -1,0 +1,1 @@
+declare module "@met4citizen/headtts" { export const HeadTTS:any; }
