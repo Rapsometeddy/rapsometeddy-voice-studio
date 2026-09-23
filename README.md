@@ -28,6 +28,10 @@ This is a standard Next.js app and is ready for Vercel deployment.
 
 Audio file export, richer server-side voices, voice presets and Telegram integration can be added later. The current MVP intentionally uses the browser Speech Synthesis API so it can stay lightweight and free on mobile.
 
+## Telegram setup
+
+Set `TELEGRAM_BOT_TOKEN` in Vercel to enable the server-side Telegram send endpoint. The UI accepts a destination chat ID. The generated audio is sent as a Telegram document so WAV files are preserved.
+
 ## License
 
 This repository contains a fresh implementation and does not copy source code from the upstream VoiceStudio fork. Add a project license before accepting external contributions.
